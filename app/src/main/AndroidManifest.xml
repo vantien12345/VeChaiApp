@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.buyandselltickss">
+
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
+
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BuyAndSellTickss">
+        <activity android:name=".Map" />
+        <activity android:name=".ChangePassword" />
+        <activity android:name=".ScrapBoardScreen.LonNhom" />
+        <activity android:name=".ScrapBoardScreen.Nhom" />
+        <activity android:name=".ScrapBoardScreen.MuNhua" />
+        <activity android:name=".ScrapBoardScreen.MuBInh" />
+        <activity android:name=".ScrapBoardScreen.SatTon" />
+        <activity android:name=".ScrapBoardScreen.SatVun" />
+        <activity android:name=".ScrapBoardScreen.SatDac" />
+        <activity android:name=".ScrapBoardScreen.GiayThung" />
+        <activity android:name=".ScrapBoardScreen.GiayHoSo" />
+        <activity android:name=".ScrapBoardScreen.GiayBao" />
+        <activity android:name=".ContactMain" />
+        <activity android:name=".HomeSell" />
+        <activity android:name=".HomeMainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

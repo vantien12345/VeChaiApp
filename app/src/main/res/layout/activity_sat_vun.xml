@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ScrapBoardScreen.SatVun">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@drawable/back_groud_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:layout_marginEnd="40dp"
+            android:text="Bảng giá phế liệu"
+            android:gravity="center_horizontal"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </androidx.appcompat.widget.Toolbar>
+    <ImageView
+        android:src="@drawable/satvun"
+        android:paddingTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giấy Hồ Sơ"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:padding="20dp"
+            android:background="@drawable/back_groud4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="- Satwslon\n- Sắt vụn, ba giới"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

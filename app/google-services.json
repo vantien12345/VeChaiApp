@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "114894126252",
+    "project_id": "appbanvechai",
+    "storage_bucket": "appbanvechai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:114894126252:android:018584c5277a161910f309",
+        "android_client_info": {
+          "package_name": "com.example.buyandselltickss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "114894126252-ch64e837t49j16e67judf3uhmumsr24t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.buyandselltickss",
+            "certificate_hash": "d4a67ed108ed4bf1f9f13f4bdfbd4b214a5f55e5"
+          }
+        },
+        {
+          "client_id": "114894126252-52pelk4thb9tpocibqtj80i4pe5h8ouv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyilFEGFFN_KbDDspA4QDjpxZH96aFvD0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "114894126252-52pelk4thb9tpocibqtj80i4pe5h8ouv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

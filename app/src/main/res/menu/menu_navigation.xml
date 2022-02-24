@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/navigatinon_home"
+            android:title="@string/home"
+            android:icon="@drawable/home"/>
+
+        <item android:id="@+id/navigatinon_notification"
+            android:title="@string/Tips"
+            android:icon="@drawable/notifications"/>
+
+        <item android:id="@+id/navigatinon_tips"
+            android:title="@string/home_History"
+            android:icon="@drawable/tips"/>
+        <item android:id="@+id/navigatinon_person"
+            android:title="@string/home_Persom"
+            android:icon="@drawable/person"/>
+
+    </group>
+    <item android:title="communicate">
+        <menu>
+            <item android:id="@+id/logout"
+                android:title="@string/home_LogOut"
+                android:icon="@drawable/logout"/>
+            <item android:id="@+id/contact"
+                android:title="@string/home_Contact"
+                android:icon="@drawable/contact"/>
+
+
+        </menu>
+    </item>
+
+
+</menu>

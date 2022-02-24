@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/backgroud_diglog">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:text="đăng ký"
+        android:textSize="18dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/backgroud_updatepassword"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/editNameDK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text1"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:hint="name"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"/>
+        <EditText
+            android:id="@+id/edtPassworđK"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edit_text1"
+            android:hint="password"
+            android:drawablePadding="15dp"
+            android:drawableLeft="@drawable/key"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/back_groud_setdialogupdatepasswword"
+                android:text="Hủy" />
+
+            <Button
+                android:id="@+id/btnDangKyLogin"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/back_groud_setdialogupdatepasswword"
+                android:text="Đăng Ký"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

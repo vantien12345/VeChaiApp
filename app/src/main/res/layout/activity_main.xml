@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_groud_setdialogupdatepasswword"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="40dp"
+            android:text="Welcome"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_groud1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:gravity="center_horizontal"
+            android:text="Đăng Nhập"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edit_text1"
+            android:drawableLeft="@drawable/ic_baseline_supervised_user_circle_24"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:hint="nhâp tên tài khoản"
+            android:inputType="textPersonName"
+            android:padding="16dp" />
+
+        <EditText
+            android:id="@+id/edtPasswword"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_text1"
+            android:drawableLeft="@drawable/key"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:hint="nhập mật khẩu"
+            android:inputType="textPersonName"
+            android:padding="16dp" />
+
+        <TextView
+            android:id="@+id/txtDangKy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="10dp"
+            android:text="registration"
+            android:textColor="@color/black"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/back_groud_setdialogupdatepasswword"
+            android:gravity="center_horizontal"
+            android:paddingTop="15dp"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

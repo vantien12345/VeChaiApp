@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeSell">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarsell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/back_groud_navigation">
+        <TextView
+            android:layout_marginEnd="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tôi bán"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đặt lịch thu gom"
+        android:textSize="25dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_marginStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vui lòng chọn địa chỉ và thời gian thu gom mong muốn"
+        android:textSize="15dp"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/map"
+            android:layout_marginStart="18dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Địa chỉ đã lưu"
+            android:layout_marginStart="15dp"
+            android:textSize="18dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/btnThemDC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thêm"
+            android:layout_marginStart="110dp"
+            android:background="@drawable/back_groud_setdialogupdatepasswword"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:background="@drawable/back_groud_nhap_dc"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <LinearLayout
+            android:background="@drawable/nhap_dia_chi"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/tvDiachiban"
+                android:padding="8dp"
+                android:gravity="start"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/nhap_dia_chi"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/time"
+            android:layout_marginStart="18dp"/>
+    
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Thời gian thu gom"
+            android:gravity="center_vertical"
+            android:layout_marginStart="15dp"
+            android:textSize="18dp"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@drawable/back_groud_nhap_dc"
+        android:layout_margin="10dp">
+        <RadioGroup
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:gravity="center_horizontal"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/radio_selector"
+                android:button="@android:color/transparent"
+                android:padding="8dp"
+                android:text="Ngày trong tuần" />
+            <RadioButton
+                android:id="@+id/radio2"
+                android:gravity="center_horizontal"
+                android:layout_marginStart="40dp"
+                android:padding="8dp"
+                android:button="@android:color/transparent"
+                android:background="@drawable/radio_selector"
+                android:layout_width="156dp"
+                android:layout_height="wrap_content"
+                android:text="T7 - Chủ Nhật"/>
+
+        </RadioGroup>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Giờ thu gom: 08:00 - 17:00"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnXacNhanban"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back_groud_setdialogupdatepasswword"
+        android:text="Xác nhận"/>
+
+</LinearLayout>

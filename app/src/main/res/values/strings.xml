@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="home">Home</string>
+    <string name="Tips">Tips</string>
+    <string name="home_History">History</string>
+    <string name="home_Persom">PerSon</string>
+    <string name="home_Sell">Sell</string>
+    <string name="home_LogOut">Log Out</string>
+    <string name="home_Contact">Contact</string>
+
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+
+</resources>
